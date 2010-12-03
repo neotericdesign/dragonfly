@@ -8,8 +8,8 @@ module Dragonfly
 
     class << self
       include Configurable
-      configurable_attr :convert_command, "convert"
-      configurable_attr :identify_command, "identify"
+      configurable_attr :convert_command, "/usr/local/bin/convert"
+      configurable_attr :identify_command, "/usr/local/bin/identify"
       configurable_attr :log_commands, false
     end
     
